@@ -2,6 +2,11 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
+/*
+  - 문제 풀이: 250330(일)
+  - 25304번: 영수증 (브론즈4), https://www.acmicpc.net/problem/25304
+  - 실행 시간: 104ms
+*/
 public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
