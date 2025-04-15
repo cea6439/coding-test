@@ -18,17 +18,17 @@ public class Main {
 		int count = 0;  // 약수 개수
 		
 		for (int i=1; i<=n; i++) {
-        if (n % i == 0) {
-            count++;
-            
-            if (count == k) {
-                System.out.println(i);  // k번쨰 약수
-            }
-        }
+		        if (n % i == 0) {
+		            count++;
+		            
+		            if (count == k) {
+		                System.out.println(i);  // k번쨰 약수
+		            }
+		        }
 		}
 		
-    if (count < k) {
-        System.out.println(0);  // k번째 약수가 없는 경우 0 출력
-    }
+		if (count < k) {
+			System.out.println(0);  // k번째 약수가 없는 경우 0 출력
+		}
 	}
 }
