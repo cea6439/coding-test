@@ -3,7 +3,7 @@ import java.lang.*;
 import java.util.*;
 
 /*
-  - 문제 풀이: 250426(월)
+  - 문제 풀이: 250428(월)
   - 2577번: 숫자의 개수 (브론즈2), https://www.acmicpc.net/problem/2577
   - 실행 시간: 100ms
 */
