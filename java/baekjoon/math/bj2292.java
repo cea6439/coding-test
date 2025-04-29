@@ -18,7 +18,7 @@ public class Main {
 		        break;  // 범위 안에 들어오면 반복문 탈출
 		    }
 		    range += 6*i;   // 6의 배수 누적
-        count++;    // 개수++
+		    count++;    // 개수++
 		}
 		
 		System.out.println(count);
