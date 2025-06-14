@@ -15,8 +15,8 @@ public class Main {
 		char[] chArr = word.toCharArray();  // String -> char
 		
 		int time = 0;   // *최소 시간
-;		
-        // 모든 다이얼 경우의 수
+		
+        	// 모든 다이얼 경우의 수
 		for (int i=0; i<chArr.length; i++) {
 		    if (chArr[i] <= 67) {
 		        time += 3;
